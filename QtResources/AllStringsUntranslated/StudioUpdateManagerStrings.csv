@@ -1,4 +1,0 @@
-Key,Context,Source,en-us
-Studio.UpdateNotifications.Ribbon.ChannelUpdateAvailableQuestion,,Would you like to get channel update and restart?,Would you like to get channel update and restart?
-Studio.UpdateNotifications.Ribbon.ChannelUpdateAvailableDescription,,An update is available for the channel you're enrolled in: %1. Private channel updates do not occur automatically on startup.,An update is available for the channel you're enrolled in: %1. Private channel updates do not occur automatically on startup.
-Studio.UpdateNotifications.Ribbon.ChannelUpdateAvailableAccept,,Update,Update
