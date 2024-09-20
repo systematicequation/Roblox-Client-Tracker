@@ -12,6 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Print debug info
+      run: |
+        echo "Branch: ${{ github.ref }}"
+        echo "Event: ${{ github.event_name }}"
+        echo "Path: /scripts/CoreScripts/Modules/BackpackScript.lua"
+    
     - name: CommitHawk
       uses: jesalg/commit-hawk-action@v1.1
       with:
